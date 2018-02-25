@@ -1,0 +1,10 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+h5.test {
+    width: 11em; 
+   color: red;
+    word-wrap: break-word;
+}
