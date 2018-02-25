@@ -14,7 +14,10 @@ var cors = require('cors');
 var { check, validationResult } = require('express-validator/check');
 var app = express();
 
-//
+//serve static files like js, css
+
+app.use('/static', express.static(__dirname + '/client/build/static'));
+
 
 //mongoose.connect('mongodb://localhost:27017/reddit_mern_challenge');
 
