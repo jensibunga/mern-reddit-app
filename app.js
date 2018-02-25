@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var path = require('path');
 
 var mongoose = require('mongoose');
 var Post = require('./models/Post');
@@ -260,7 +261,6 @@ app.post('/api/post/:id/update', function (req, res) {
 app.get('/test', function(req, res){
   res.send('Yehey it works!!!');
 })
-
 
 app.get('*', (req, res) =>{
   res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
