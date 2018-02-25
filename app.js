@@ -25,14 +25,14 @@ app.use('/static', express.static(__dirname + '/client/build/static'));
 //vgchtdfytf2168WERT
 mongoose.connect('mongodb://sdbhdgebhdi267:vgchtdfytf2168WERT@ds247078.mlab.com:47078/mern_reddit_challenge');
 app.use(cors({ 
-  origin: 'https://mern-reddit-app-challenge.herokuapp.com',
+  origin: ['https://mern-reddit-app-challenge.herokuapp.com', 'http://localhost:3000'],
   methods: ['GET', 'HEAD', 'POST', 'DELETE', 'PUT', 'PATCH', 'OPTIONS'],
   credentials: true
 }));
 
 app.use(session({
   proxy: true,
-  secure: false,
+  secure: true,
   resave: true,
   secret: 'qwertyuiop1234567890',
   saveUninitialized: true,
