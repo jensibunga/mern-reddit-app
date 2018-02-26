@@ -1,17 +1,21 @@
-# mern-reddit-app
+## mern-reddit-app
 
-## Description
+As part of my MERN stack development evaluation in [Restart Network](https://restart.network/) this application was created. This allows users to register, log in , post  message, upvote posted messages, see registered users posted messages and log out. 
 
-* Made Log in and Registration forms
-* Users can log in and post message and upvote the posted messages from other users
-
-## Technology Used
+### Technology Used
 
 * Mongo DB
 * Express
 * NodeJS
 * React
+* Bootstrap
+
+### Challenges Faced
+
+* Sorting posts by number of upvotes
+* Validation of forms
+
 
 ## Link
 
-* https://mern-reddit-app-challenge.herokuapp.com/
+https://mern-reddit-app-challenge.herokuapp.com/
