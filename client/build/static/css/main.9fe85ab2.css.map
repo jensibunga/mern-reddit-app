@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,gBACE,cAAgB,CAIlB,QACI,WACD,UACC,oBAAsB","file":"static/css/main.9fe85ab2.css","sourcesContent":[".cursor-pointer{\n  cursor: pointer;\n}\n\n\nh5.test {\n    width: 11em; \n   color: red;\n    word-wrap: break-word;\n}\n\n\n// WEBPACK FOOTER //\n// ./src/style.css"],"sourceRoot":""}
